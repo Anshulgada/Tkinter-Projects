@@ -35,15 +35,8 @@ btn.pack()
 
 # Exercise Button
 # exe_btn = ttk.Button(master=window, text = 'Press to say hello', command = hello_btn)
-exe_btn = ttk.Button(master=window, text = 'Press to say hello', command = lambda: print("Lambda btn - Hello!")) # Can also use lambda func (One use funcs)
+exe_btn = ttk.Button(master=window, text = 'Press to say hello', command = lambda:print("Lambda btn - Hello!")) # Can also use lambda func (One use funcs)
 exe_btn.pack()
-
-
-
-
-
-
-
 
 # Run
 window.mainloop()
