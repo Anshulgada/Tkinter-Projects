@@ -1,4 +1,4 @@
-Made by Christian Koch / Clear Code
+Edited by Anshul Gada
 
 The project is published under the CC0 license. You can use it for any project (commercial or not) and attributions are not required but appreicated. 
 This does not include external modules used for these projects (like the Azure theme)
