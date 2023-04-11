@@ -7,7 +7,7 @@ def button_func():
 
 # Create a window
 window = tk.Tk()
-window.title('Variables') 
+window.title('Variables')
 window.geometry('800x500')
 
 # tkinter Variable

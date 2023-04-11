@@ -28,10 +28,10 @@ label.pack(pady = 5)
 entry = ttk.Entry(master = window)
 entry.pack(pady = 5)
 
-button = ttk.Button(master = window, text = 'The button', command = btn_func) 
+button = ttk.Button(master = window, text = 'The button', command = btn_func)
 button.pack(pady = 3)
 
-button_back = ttk.Button(master = window, text = 'To old text', command = btn_old) 
+button_back = ttk.Button(master = window, text = 'To old text', command = btn_old)
 button_back.pack(pady = 0)
 
 # Run

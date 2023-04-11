@@ -6,7 +6,7 @@ def get_pos(event):
 
 # Create a window
 window = tk.Tk()
-window.title('') 
+window.title('')
 window.geometry('800x500')
 
 # Text

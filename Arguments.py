@@ -13,7 +13,7 @@ def outer_func(parameter):
 
 # Create a window
 window = tk.Tk()
-window.title('') 
+window.title('')
 window.geometry('800x500')
 
 # Entry
@@ -22,11 +22,11 @@ entry = ttk.Entry(window, textvariable = entry_str)
 entry.pack()
 
 # Button
-# btn = ttk.Button(window, text = 'A button', command = lambda: btn_func(entry_str))   # By adding in lambda we make it 
+# btn = ttk.Button(window, text = 'A button', command = lambda: btn_func(entry_str))   # By adding in lambda we make it
 # btn.pack()                                                                           # so that the func is not called
 
-btn = ttk.Button(window, text = 'A button', command = outer_func(entry_str))  # To directly call, use nested func 
-btn.pack()   
+btn = ttk.Button(window, text = 'A button', command = outer_func(entry_str))  # To directly call, use nested func
+btn.pack()
 
 # Run
 window.mainloop()

@@ -9,7 +9,7 @@ def hello_btn():
 
 # Create a window
 window = tk.Tk()
-window.title('Window and Widgets') 
+window.title('Window and Widgets')
 window.geometry('800x500')
 
 # ttk Widgets - Label

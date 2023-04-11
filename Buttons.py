@@ -54,11 +54,11 @@ window.geometry('600x400')
 
 
 # Exercise ------------
-    
+
 def rad_func():
     print(check_bool.get())
     check_bool.set(False)
-    
+
 
 # Radio Buttons
 radio_var = tk.StringVar()
@@ -71,8 +71,8 @@ radio1 = ttk.Radiobutton(
 radio1.pack()
 
 radio2 = ttk.Radiobutton(
-    window, 
-    text = 'Radio B', 
+    window,
+    text = 'Radio B',
     value = 'B',
     command = rad_func,
     variable = radio_var)
@@ -81,7 +81,7 @@ radio2.pack()
 # Check Button
 check_bool = tk.BooleanVar()
 check = ttk.Checkbutton(
-    window, 
+    window,
     text = 'Checkbox',
     command = lambda: print(radio_var.get()),
     variable = check_bool)
